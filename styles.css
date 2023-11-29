@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+}
+
+header {
+    background-color: #047aeb;
+    color: white;
+    padding: 10px 42px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 56px;
+    flex: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+.app-page section {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.app-page section h2 {
+    display: flex;
+    text-align: center;
+}
+
+.app-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* margin-bottom: 20px; */
+    padding: 20px;
+    width: 450px;
+    height: 100%;
+    color: #2a2a2a;
+}
+
+.app-card h2, h3 , p {
+    color: #2a2a2a;
+}
+
+.card-content img {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #047aeb;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+#myVideo {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+#playVideo {
+    color: "#047aeb";
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px;
+    background-color: #047aeb;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    nav ul {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
