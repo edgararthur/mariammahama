@@ -8,7 +8,7 @@ document.getElementById('app1').innerHTML = `
             <span><i class="fa-solid fa-circle-play"></i></span>Play Video 
         </a>
         <video id="myVideo" controls>
-            <source src="WELCOME TO A WORLD OF OPPORTUNITIES.mp4" type="video/mp4">
+            <source src="How to Book on Airbnb.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
         <span class="close"><i class="fa-solid fa-close"></i></span>
