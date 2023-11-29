@@ -1,4 +1,4 @@
-const closeBtn = document.getElementById('close');
+const closeBtn = document.querySelector('.close');
 
 document.getElementById('app1').innerHTML = `
     <div class="card-content">
@@ -19,11 +19,10 @@ document.getElementById('app1').innerHTML = `
 document.getElementById('app2').innerHTML = `
     <div class="card-content">
         <p>Empower individuals or groups with strong convictions to raise funds for projects aligned with their values.</p>
-        <!-- Add more content as needed -->
     </div>
 `;
 
-document.getElementById('playVideo').addEventListener('click', function() {
+document.querySelector('#playVideo').addEventListener('click', function() {
     var video = document.getElementById('myVideo');
     video.style.display = 'block'; // Show the video
     video.play();
