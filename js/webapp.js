@@ -1,4 +1,4 @@
-// webapp for airbnb {selects the element of id app2 and adds the html content}
+// webapp for airbnb {selects the element of id app1 and adds the html content}
 document.getElementById("app1").innerHTML = `
     <div class="card-content">
         <p>Foster a sense of community by creating a platform where individuals with shared convictions can connect, share ideas, and collaborate..</p>
