@@ -1,0 +1,60 @@
+#contact {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 32px 0 0 0;
+}
+
+.form-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	width: 450px;
+	height: 100%;
+	color: #2a2a2a;
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+label {
+	font-weight: bold;
+}
+
+input,
+textarea {
+	width: 100%;
+	padding: 8px;
+	margin: 5px 0;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	outline: none;
+}
+
+button {
+	padding: 10px;
+	background-color: #047aeb;
+	color: white;
+	border: none;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	border-radius: 4px;
+}
+
+footer {
+	background-color: #047aeb;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	justify-content: flex-end;
+}

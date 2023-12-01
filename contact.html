@@ -1,47 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - My Web Apps</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Contact Us - My Web Apps</title>
+		<link rel="stylesheet" href="styles.css" />
+		<link rel="stylesheet" href="contact.css" />
+	</head>
+	<body>
+		<header>
+			<h1>Contact Us</h1>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="app.html">App Page</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</nav>
+		</header>
 
-    <header>
-        <h1>Contact Us</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="app.html">App Page</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
+		<section id="contact">
+			<div class="form-container">
+				<div class="form-header">
+					<h2>Send us a Message</h2>
+				</div>
+				<form action="#" method="post" id="contact-form">
+					<div class="name">
+						<label for="name">Name</label>
+						<input type="text" id="name" name="name" required />
+					</div>
+					<div class="email">
+						<label for="email">Email</label>
+						<input type="email" id="email" name="email" required />
+					</div>
+					<div class="message">
+						<label for="message">Message:</label>
+						<textarea
+							id="message"
+							name="message"
+							required
+						></textarea>
+					</div>
 
-    <section id="contact">
-        <h2>Send us a Message</h2>
-        <form action="#" method="post" id="contact-form">
-            <label for="name">User's Name:</label>
-            <input type="text" id="name" name="name" required>
+					<button type="submit">Send</button>
+				</form>
+			</div>
 
-            <label for="email">User's Email:</label>
-            <input type="email" id="email" name="email" required>
+			<h2>Contact Information</h2>
+			<p>Email: mmx023a@hcuc.edu.gh</p>
+			<p>Telephone: 0595941005</p>
+		</section>
 
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-
-            <button type="submit">Send</button>
-        </form>
-
-        <h2>Contact Information</h2>
-        <p>Email: example@example.com</p>
-        <p>Telephone: +1 (123) 456-7890</p>
-    </section>
-
-    <footer>
-        <p>&copy; 2023 My Web Apps</p>
-    </footer>
-
-</body>
+		<footer>
+			<p>&copy; 2023 My Web Apps</p>
+		</footer>
+	</body>
 </html>
