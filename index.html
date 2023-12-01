@@ -1,95 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ariam Mahama</title>
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        #homepage {
-            position: relative;
-            overflow: hidden;
-            width: 100%;
-            height: 100vh;
-        }
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Mariam Mahama</title>
+		<link rel="stylesheet" href="styles.css" />
+		<style>
+			#homepage {
+				position: relative;
+				overflow: hidden;
+				width: 100%;
+				height: 100vh;
+			}
 
-        #video-background {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 45;
-            object-fit: cover;
-            opacity: 0.7;
-        }
+			#video-background {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 45;
+				object-fit: cover;
+				opacity: 0.7;
+			}
 
-        #dimmed-overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.821);
-        }
+			#dimmed-overlay {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				background: rgba(0, 0, 0, 0.821);
+			}
 
-        #content {
-            position: relative;
-            z-index: 1;
-            color: #fff;
-            padding: 20px;
-        }
+			#content {
+				position: relative;
+				z-index: 1;
+				color: #fff;
+				padding: 20px;
+			}
 
-        #content h2 {
-            padding-top: 20%;
-            text-align: center;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
+			#content h2 {
+				padding-top: 20%;
+				text-align: center;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
 
-        #content a {
-            
-            text-align: center;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #047aeb;
-            text-decoration: none;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <header class="header">
-            <div class="logo">
-                <h1>Mariam Mahama</h1>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="app.html">Apps</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                </ul>
-            </nav>
-        </header>
-    
-        <section id="homepage">
-            <video id="video-background" autoplay muted loop>
-                <source src="WELCOME TO A WORLD OF OPPORTUNITIES.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+			#content a {
+				text-align: center;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				color: #047aeb;
+				text-decoration: none;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<header class="header">
+				<div class="logo">
+					<h1>Mariam Mahama</h1>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="app.html">Apps</a></li>
+						<li><a href="contact.html">Contact Us</a></li>
+					</ul>
+				</nav>
+			</header>
 
-            <div id="dimmed-overlay"></div>
+			<section id="homepage">
+				<video id="video-background" autoplay muted loop>
+					<source
+						src="WELCOME TO A WORLD OF OPPORTUNITIES.mp4"
+						type="video/mp4"
+					/>
+					Your browser does not support the video tag.
+				</video>
 
-            <div id="content">
-                <h2>Explore our innovative apps that align with the core values of HCC.</h2>
-                <a href="app.html">Check out our Apps</a>
-            </div>
-        </section>
-    
-        <footer>
-            <p>&copy; 2023 My Web Apps</p>
-        </footer>
-    </div>
-</body>
+				<div id="dimmed-overlay"></div>
+
+				<div id="content">
+					<h2>
+						Explore our innovative apps that align with the core
+						values of HCC.
+					</h2>
+					<a href="app.html">Check out our Apps</a>
+				</div>
+			</section>
+
+			<footer>
+				<p>&copy; 2023 My Web Apps</p>
+			</footer>
+		</div>
+	</body>
 </html>
