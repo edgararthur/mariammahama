@@ -41,7 +41,7 @@ document.querySelector(".playVideo").addEventListener(
 document.querySelector(".play-video").addEventListener(
 	"click",
 	function () {
-		var video = document.getElementById("my-video");
+		var video = document.querySelector(".my-video");
 		video.style.display = "block";
 		video.play();
 	},
