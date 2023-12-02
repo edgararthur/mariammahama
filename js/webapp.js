@@ -1,13 +1,13 @@
 // webapp for airbnb {selects the element of id app1 and adds the html content}
 document.getElementById("app1").innerHTML = `
     <div class="card-content">
-        <p>Foster a sense of community by creating a platform where individuals with shared convictions can connect, share ideas, and collaborate..</p>
-        <img src="./a86a258a-059e-49da-8ea9-6f46a9302ab2.webp" alt="">
+        <p>Elevate your travel experience with our Airbnb Booking app, your passport to unique accommodations and unforgettable getaways. Whether you're seeking a cozy cottage, a luxurious penthouse, or an exotic villa, this app connects you with a world of diverse lodging options tailored to your preferences.</p>
+        <img src="../pexels-cottonbro-studio-5077061.jpeg" alt="">
         <a href="#" class="playVideo">
             <span><i class="fa-solid fa-circle-play"></i></span>Play Video 
         </a>
         <video id="myVideo" controls>
-            <source src="How to Book on Airbnb.mp4" type="video/mp4">
+            <source src="../production-id-5077072-1440p_jnbVW5Er.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </div>
@@ -16,13 +16,13 @@ document.getElementById("app1").innerHTML = `
 // webapp for maze game {selects the element of id app2 and adds the html content}
 document.getElementById("app2").innerHTML = `
     <div class="card-content">
-        <p>Foster a sense of community by creating a platform where individuals with shared convictions can connect, share ideas, and collaborate..</p>
-        <img src="./a86a258a-059e-49da-8ea9-6f46a9302ab2.webp" alt="">
-        <a href="#" id="playVideo">
+        <p>Embark on a thrilling journey through the labyrinthine realms of our Maze Game app! Immerse yourself in a world of challenging puzzles and mind-bending twists as you navigate through intricate mazes filled with mysterious obstacles. </p>
+        <img src="pexels-monstera-production-7352866.jpeg" alt="">
+        <a href="#" class="playVideo">
             <span><i class="fa-solid fa-circle-play"></i></span>Play Video 
         </a>
         <video id="myVideo" controls>
-            <source src="How to Book on Airbnb.mp4" type="video/mp4">
+            <source src="../istockphoto-542222136-640_adpp_is.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </div>
