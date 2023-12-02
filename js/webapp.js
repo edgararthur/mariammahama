@@ -18,7 +18,7 @@ document.getElementById("app2").innerHTML = `
     <div class="card-content">
         <p>Embark on a thrilling journey through the labyrinthine realms of our Maze Game app! Immerse yourself in a world of challenging puzzles and mind-bending twists as you navigate through intricate mazes filled with mysterious obstacles. </p>
         <img src="pexels-monstera-production-7352866.jpeg" alt="">
-        <a href="#" class="play-ideo">
+        <a href="#" class="play-video">
             <span><i class="fa-solid fa-circle-play"></i></span>Play Video 
         </a>
         <video class="my-video" controls>
